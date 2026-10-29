@@ -3,8 +3,5 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "rewrites": [
-    { "source": "/api/hs/hsprice", "destination": "http://api.favorit-parts.ru/hs/hsprice/" }
-  ]
+  "installCommand": "npm install"
 }

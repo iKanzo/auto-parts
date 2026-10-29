@@ -79,7 +79,7 @@ src/
 - `getOffers(article, brand)` — запрос с `brand` и `analogues=on`: искомая деталь + аналоги, у каждой позиции цена и остаток по складам.
 
 Ключ задаётся в `.env` (`VITE_API_KEY`, см. `.env.example`); без него используется тестовый ключ из PDF.
-API работает по http и без CORS, поэтому запросы идут на `/api/...`: в dev это прокси Vite (`vite.config.js`), на Vercel — rewrite (`vercel.json`).
+API работает по http и без CORS, поэтому запросы идут на `/api/...`: в dev это прокси Vite (`vite.config.js`), на Vercel — серверная функция `api/hs/hsprice.js`.
 
 ## Требования
 
