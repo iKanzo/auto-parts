@@ -1,0 +1,18 @@
+.app {
+  max-width: 960px;
+}
+
+.offers-table tbody tr.offer-start:not(:first-child) > * {
+  border-top: 2px solid var(--bs-border-color);
+}
+
+@media (max-width: 575.98px) {
+  .offers-table {
+    font-size: 0.8125rem;
+  }
+
+  .offers-table > :not(caption) > * > * {
+    padding-left: 0.375rem;
+    padding-right: 0.375rem;
+  }
+}
